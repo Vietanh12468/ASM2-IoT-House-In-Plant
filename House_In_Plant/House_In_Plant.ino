@@ -169,7 +169,7 @@ void GetTempNextDay(){
   HTTPClient http;
 
   // Make a GET request to the Weather API
-  http.begin(client, "http://api.weatherapi.com/v1/forecast.json?key=11b8ddddf89e4bc593a101812231411&q=HaNoi&dt=" + tempDate + "&hour=12");
+  http.begin(client, "http://api.weatherapi.com/v1/forecast.json?key=**********&q=HaNoi&dt=" + tempDate + "&hour=12");
   int httpCode = http.GET();
   if (httpCode > 0) {
     if (httpCode == HTTP_CODE_OK) {
