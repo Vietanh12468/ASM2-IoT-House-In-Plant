@@ -1,7 +1,7 @@
 
-#define BLYNK_TEMPLATE_ID "TMPL6aISuI5I5"
-#define BLYNK_TEMPLATE_NAME "Demo"
-#define BLYNK_AUTH_TOKEN "Td95o1Nvjx1uAF3iXyx8K3oIQHBuHGSH"
+#define BLYNK_TEMPLATE_ID "**********"
+#define BLYNK_TEMPLATE_NAME "**********"
+#define BLYNK_AUTH_TOKEN "**********"
 
 #define BLYNK_PRINT Serial
 
